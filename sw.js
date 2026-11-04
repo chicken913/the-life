@@ -1,10 +1,12 @@
-// Simon Life service worker：離線可用，連網時優先取得最新版本
-const VERSION = "simon-life-v1";
+// The Life service worker：離線可用，連網時優先取得最新版本
+const VERSION = "the-life-v2";
 const ASSETS = [
   "./",
   "./index.html",
   "./app.js",
   "./config.js",
+  "./data-quotes.js",
+  "./data-vocab.js",
   "./manifest.webmanifest",
   "./icons/icon-192.png",
   "./icons/icon-512.png",
